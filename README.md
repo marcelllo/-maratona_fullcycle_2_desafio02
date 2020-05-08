@@ -50,6 +50,18 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Configuration
+$ rename .env.example .env
+
+* Change the configuration if you want to change the database name or location
+```
+TYPEORM_CONNECTION=sqlite
+TYPEORM_DATABASE=database.sqlite
+TYPEORM_ENTITIES=src/**/*.entity.ts
+TYPEORM_MIGRATIONS=src/migrations/**/*.ts
+TYPEORM_MIGRATIONS_DIR=src/migrations
+```
+
 ## Test
 
 ```bash

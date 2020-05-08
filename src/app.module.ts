@@ -14,7 +14,7 @@ import { Maratona } from './maratona/maratona.model';
     }),
     TypeOrmModule.forRoot({
       type: 'sqlite',
-      database: 'database.sqlite',
+      database: process.env.TYPEORM_DATABASE,
       entities: [Maratona]
     }),
     MaratonaModule
