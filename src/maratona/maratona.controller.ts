@@ -13,7 +13,12 @@ export class MaratonaController {
 
   @Get()
   async index() {
-    return await this.maratonaRepo.find();
+    try {
+      const list = await this.maratonaRepo.find();
+      return list;
+    } catch (err) {
+      return err;
+    }
   }
 
   @Post()
