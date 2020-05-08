@@ -18,6 +18,6 @@ COPY ./.env .
 
 COPY ./dist ./dist
 
-COPY database.sqlite .
+COPY --chown=node database.sqlite .
 
 CMD ["npm", "run", "start:prod"]
