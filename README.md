@@ -83,7 +83,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Marcelo Santos](marcellos.santos@gmail.com)
+- Author - [Marcelo Santos](mailto:marcellos.santos@gmail.com)
 - Website - [https://marcelosantos.bsb.br](https://marcelosantos.bsb.br/)
 
 ## License
