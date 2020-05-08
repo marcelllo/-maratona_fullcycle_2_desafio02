@@ -28,7 +28,27 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## API no Nest.js com TypeORM
+
+Nesse desafio é criado um endpoint Rest com a listagem de todas aulas da Maratona Full Cycle 2.0 (utilizando o menu do site: [maratona.fullcycle.com.br](http://maratona.fullcycle.com.br)).
+
+### Requisitos
+* Nest.js
+* TypeORM
+* Migrations
+* Banco de dados: SQLite
+
+### Detalhes
+
+* Estrutura do banco de dados: Tabela: maratona. Campos: id, aula.
+* Endpoint: "/maratona" com a opção de listar (GET) e inserir (POST)
+* Realize o build da aplicação usando o comando: "npm run build"
+* Gere uma imagem Docker copiando a pasta dist para dento do container incluindo o arquivo do banco do SQLite com as informações populadas
+* Utilize o comando como entrypoint: "npm start:prod"
+* A aplicação deverá rodar na porta 3000
+* Suba o container no DockerHub
+* Poste sua imagem nos comentários do site: [maratona.fullcycle.com.br](http://maratona.fullcycle.com.br)
+* Quando executarmos: "docker run -p 3000:3000 seu-login-docker/nome-da-sua-imagem" deveremos ter acesso a API na porta 3000
 
 ## Installation
 

@@ -1,15 +1,19 @@
+### Local
 GET http://localhost:3000/maratona
-
-###
-GET http://192.168.99.101:3000/maratona
 
 ###
 POST http://localhost:3000/maratona HTTP/1.1
 content-type: application/json
 
 {
-    "aula": "Marcelo Santos"
+    "aula": "Live 07: Service Mesh com Istio e Kiali"
 }
+
+
+
+### DOCKER
+GET http://192.168.99.101:3000/maratona
+
 ###
 POST http://192.168.99.101:3000/maratona HTTP/1.1
 content-type: application/json
