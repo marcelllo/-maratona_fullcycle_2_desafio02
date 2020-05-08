@@ -51,7 +51,9 @@ $ npm run start:prod
 ```
 
 ## Configuration
+```bash
 $ rename .env.example .env
+```
 
 * Change the configuration if you want to change the database name or location
 ```
